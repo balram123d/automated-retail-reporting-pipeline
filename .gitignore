@@ -5,9 +5,11 @@ __pycache__/
 .env
 
 # Data files
-data/raw/*
-data/processed/*
-output/*
+!.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!output/.gitkeep
+
 
 # OS files
 .DS_Store
